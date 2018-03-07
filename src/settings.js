@@ -6,7 +6,7 @@ module.exports = {
   },
   standard: {
     'subs': 'all',
-    'regEx': /(lol)|(lm(?f)ao)/i
+    'regEx': /lol|lm(f?)ao/i
   },
   custom: {
     'subs': 'custom+subs+here',
