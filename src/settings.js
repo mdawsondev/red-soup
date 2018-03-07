@@ -1,5 +1,7 @@
 module.exports = {
   general: {
+    'cleanMS': 30000,
+    'devMode': false,
     'postLimit': 100,
     'refreshMS': 3000,
     'useColor': true,
@@ -10,7 +12,7 @@ module.exports = {
     'regEx': /lol|lm(f?)ao/i
   },
   custom: {
-    'subs': 'custom+subs+here',
-    'regEx': /(regex|stuff)/i
+    'subs': 'sub+sub+sub',
+    'regEx': /word/i
   }
 }

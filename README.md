@@ -8,10 +8,12 @@ Red Soup is a comment scraper that plucks out keywords from comments in selected
 
 ### Installing
 
-At the moment, Red Soup requires you to have NodeJS and npm. Clone the repo, run `npm install`, and then start the program with default settings by running `npm start`. You can change the variables in `settings.js` to suit your needs. Exit with `Ctrl + C`.
+At the moment, Red Soup requires you to have NodeJS and npm. Clone the repo, run `npm install`, and then start the program with default settings by running `npm start`. You can change the variables in `settings.js` to suit your needs. Exit with `Ctrl + C` twice.
 
 ### Settings
 
+* cleanMS - (0-Infinity) Number of MS to clear the cache (1000 = 1 Second | 30000 recommended).
+* devMode - (true|false) Output development data (not recommended).
 * postLimit - (0-100) Number of posts to show.
 * refreshMS - (0-Infinity) Number of MS to show new posts (1000 = 1 Second).
 * useColor - (true|false) Display colors in output (recommended).
